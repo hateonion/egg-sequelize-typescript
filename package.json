@@ -1,7 +1,7 @@
 {
-  "name": "egg-sequelize",
-  "version": "5.2.1",
-  "description": "egg Sequelize plugin",
+  "name": "egg-sequelize-typescript",
+  "version": "1.0.0",
+  "description": "egg sequelize ts plugin",
   "eggPlugin": {
     "name": "sequelize"
   },
@@ -10,12 +10,16 @@
     "sequelize",
     "egg-plugin",
     "eggPlugin",
-    "orm"
+    "orm",
+    "typescript"
   ],
   "dependencies": {
     "@types/sequelize": "^4.27.24",
     "mz-modules": "^2.1.0",
     "sequelize": "^5.0.0"
+  },
+  "peerDependencies": {
+    "sequelize-typescript": "^1.1.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -24,10 +28,11 @@
     "egg-mock": "^3.19.3",
     "eslint": "^5.3.0",
     "eslint-config-egg": "^7.0.0",
-    "mysql2": "^1.6.1"
+    "mysql2": "^1.6.1",
+    "typescript": "^3.9.5"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && npm run test-local",
@@ -47,12 +52,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-sequelize.git"
+    "url": "git+https://github.com/hateonion/egg-sequelize-typescript.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-sequelize#readme",
-  "author": "jtyjty99999",
+  "homepage": "https://github.com/hateonion/egg-sequelize-typescript#readme",
+  "author": "jtyjty99999, stone-lyl, ZeekoZhu, hateonion",
   "license": "MIT"
 }
